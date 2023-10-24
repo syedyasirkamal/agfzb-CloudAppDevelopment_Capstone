@@ -8,7 +8,7 @@ urlpatterns = [
     # route is a string contains a URL pattern
     # view refers to the view function
     # name the URL
-    path('/', view=views.index, name='index'),
+    path('/', view=views.get_dealerships, name='index'),
     
 
     # path for about view
